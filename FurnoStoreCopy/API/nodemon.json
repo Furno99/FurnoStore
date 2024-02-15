@@ -1,0 +1,5 @@
+{
+    "watch": ["src","server_manager/controllers/","server_manager/routes/","database"],
+    "ext": "ts",
+    "exec": "concurrently \"npx tsc --watch\" \"ts-node src/index.ts\""
+}
